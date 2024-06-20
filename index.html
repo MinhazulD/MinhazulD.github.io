@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhadul's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <h1>Minhadul</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <video autoplay loop muted playsinline id="profile-video">
+                <source src="animatedprot.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h1>Hi! It's Minhadul</h1>
+            <p>14-year-old enthusiast from Kurigram, Bangladesh</p>
+            <button onclick="window.location.href='minhadul_cv.pdf'">Download CV</button>
+            <div id="weather">
+                <h3>Current Weather in Kurigram</h3>
+                <p id="weather-info">Loading...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <img src="Erased.png" alt="Minhadul's Profile Picture" class="profile-pic">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio, where each picture tells a story of passion, determination, and growth. I am Minhadul, a 14-year-old enthusiast from Kurigram, Bangladesh, on a dynamic journey of learning and exploration.</p>
+            <p>Through these snapshots, I capture moments that reflect my dedication to mastering languages, delving into programming, and exploring the world of freelance opportunities. Guided by a supportive family, including siblings excelling in medicine, I draw inspiration from their achievements as I strive for excellence in every endeavor.</p>
+            <p>Join me in documenting my pursuit of knowledge, from overcoming language barriers to embracing academic challenges. Each image represents a chapter in my quest to shape a future where dedication and passion converge to create lasting impact.</p>
+            <p>Thank you for taking this visual journey with me as I celebrate progress, cherish milestones, and envision a world where curiosity knows no bounds.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services-content">
+            <div class="service-item">
+                <h3>Software Development</h3>
+                <p>Developing robust and scalable software solutions.</p>
+            </div>
+            <div class="service-item">
+                <h3>Web Development</h3>
+                <p>Creating dynamic and responsive web applications.</p>
+            </div>
+            <div class="service-item">
+                <h3>Content Creation</h3>
+                <p>Producing engaging content for various platforms.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>High School</h3>
+                <p>Kurigram High School</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Future Plans</h3>
+                <p>Pursue higher education in Computer Science</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Minhadul's Portfolio</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
